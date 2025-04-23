@@ -8,5 +8,6 @@ public class PrimitivesLesson {
         float f = 3.14F;
         double d = 5.1D;
         long i = 56l;
+        
     }
 }
