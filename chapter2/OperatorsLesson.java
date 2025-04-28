@@ -21,5 +21,6 @@ public class OperatorsLesson {
         short y = 30;
         short z =(short) (x*y);
         System.out.println("z="+z);
+        System.out.println(false^true);
     }
 }
