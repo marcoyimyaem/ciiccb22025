@@ -38,7 +38,17 @@ public class LoopsLesson {
             if(color.equals(colorSearch))
                 colorCounter++;
         System.out.println("Found "+colorCounter+ " " + colorSearch);
-        }
         
-    
+ROW_TABLE:        for(int c = 1;c<=10;c++){
+COL_TABLE:            for(int d = 1;d<=10;d++){
+                            if(d==7){
+
+                                // break COL_TABLE;
+                                continue COL_TABLE;
+                            }
+                    System.out.print(c*d + "\t");
+                }
+                System.out.println();
+            }
+    }
 }
