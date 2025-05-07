@@ -1,4 +1,4 @@
-package coders;
+package tcoders;
 
 import java.util.Scanner;
 
